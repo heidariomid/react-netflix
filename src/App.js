@@ -1,3 +1,14 @@
 import React from 'react';
 
-export const App = () => <>Hi</>;
+const App = () => {
+	return (
+		<div className='alert'>
+			<button>
+				<img src='icon.png' alt='' />
+				Save
+			</button>
+		</div>
+	);
+};
+
+export default App;
